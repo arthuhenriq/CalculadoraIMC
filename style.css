@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-color: cadetblue;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border-style: solid;
+    border-width: 0.5rem;
+}
+
+#height, #weight {
+    margin: 10px;
+}
+
+#operacao {
+    margin: 10px;
+}
+
+#resultado {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+#imc {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px;
+}
